@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+.head{
+    background-color: white;
+    height: 800px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:55px;
+    font-size: 20px;
+    border-bottom: #cccccc solid 1px;
+}
+.link{
+    text-decoration: none;
+    color:#cccccc;
+}
+.link:first-child{
+    color:black;
+}
+.header_title{
+    font-size: 50px;
+    text-transform: uppercase;
+    max-width: 170px;
+}
+.header_info{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_subtitle{
+    font-size: 20px;
+}
+.header_subsubtitle{
+    font-size: 20px;
+    transform: rotate(270deg);
+}
+.header_img img{
+    width: 1200px;
+}
+.main{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.main_content{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main_title{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.main_subtitle{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.footer_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.footer_columns{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.footer_title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer_subtitle{
+    text-align: center;
+    margin-top: 40px; 
+}
+.footer_img{
+    margin:5px auto;
+}
+.footer_text{
+    text-align: center;
+    margin-top: 10px;
+}
+.footer_grade{
+    margin-top: 20px;
+}
+.last_title{
+    font-size: 50px;
+    text-align: center;
+    margin-top:20px
+}
+.last_subtitle{
+    text-align: center;
+    margin-top:20px
+}
+.last_subsubtitle{
+    text-align: center;
+}
+.footer_button{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color:white;
+    text-decoration: none;
+}
+.columns{
+    width: 24%;
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    margin:0px auto;
+}
+.f_last{
+    margin:30px auto;
+    height: 100px;
+    width: 100%;
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+}
